@@ -74,11 +74,9 @@ See `adapters/pulse_adapter.py` for a reference implementation.
 
 | System | Retention | Quality | Latency | Consolidation | Multi-Agent | Contradiction | Drift | Overall |
 |--------|-----------|---------|---------|---------------|-------------|---------------|-------|---------|
-| **PULSE v10.59** | 0.800 | 0.143 | 0.921 | 0.333 | 1.000 | 0.000 | 1.000 | **0.600 (C)** |
+| *Your system here* | - | - | - | - | - | - | - | - |
 
-PULSE v10.59 results: strong on latency (86ms round-trip), multi-agent (perfect cross-agent sharing), and drift resistance (zero degradation). Weak on contradiction ranking and synchronous dedup (consolidation runs async every 6h). Quality gate operates at the extraction layer, not the database layer — a known architectural gap being addressed in v10.60.
-
-*Submit a PR with your system's results to appear in this table.*
+*Run the benchmarks against your memory system and submit a PR with results.*
 
 ## Methodology
 
